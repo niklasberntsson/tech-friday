@@ -30,3 +30,7 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+_debug_bin
+__debug_bin
+cmd/api/__debug_bin3538567064
