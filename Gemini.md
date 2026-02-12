@@ -17,6 +17,13 @@ This project is a Go-based API for managing tennis court facilities, users, and 
 - **`.env.example`**: Example environment variables.
 - **`.gitignore`**: Git ignore file.
 
+## Rules
+
+- **All logic should be in services**
+- **All data should be in repositories**
+- **All business logic should be in services**
+- **Store data in a json file for now**
+
 ## Technologies Used:
 
 - **Go**: Primary programming language.

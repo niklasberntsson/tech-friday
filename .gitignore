@@ -34,3 +34,4 @@ go.work.sum
 _debug_bin
 __debug_bin
 cmd/api/__debug_bin3538567064
+.antigravity/debug_bin
