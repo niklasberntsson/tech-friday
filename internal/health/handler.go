@@ -7,9 +7,6 @@ import (
 )
 
 func Handler(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{
-		"status":  "ok",
-		"env":     "dev",
-		"version": "1.0.0",
-	})
+	response := GetHealth()
+	c.JSON(http.StatusOK, response)
 }
